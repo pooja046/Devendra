@@ -349,9 +349,15 @@ public class ProductDetailActivityPP extends Activity {
 
                 }
                 try {
-                    MainActivity.cartsDTO.setSize(sizes.get(0));
-                    MainActivity.cartsDTO.setColor_code(color_codes.get(0));
-                    MainActivity.cartsDTO.setColor_name(color_names.get(0));
+                    if (sizes.size() > 0) {
+                        MainActivity.cartsDTO.setSize(sizes.get(0));
+                    }
+                    if (color_codes.size() > 0) {
+                        MainActivity.cartsDTO.setColor_code(color_codes.get(0));
+                    }
+                    if (color_names.size() > 0) {
+                        MainActivity.cartsDTO.setColor_name(color_names.get(0));
+                    }
                 } catch (Exception e) {
 
                 }
