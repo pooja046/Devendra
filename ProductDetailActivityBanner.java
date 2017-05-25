@@ -1,6 +1,7 @@
 package com.ealpha.homeclick;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import org.apache.http.NameValuePair;
@@ -52,6 +53,7 @@ public class ProductDetailActivityBanner extends Activity {
     private boolean is_same_size;
     String default_color_code = "#000000";
     private TextView mCounter;
+    private String vKeyValue = null;
 
     ProductDetailActivityBanner productDetailActivityBanner;
 
@@ -147,6 +149,7 @@ public class ProductDetailActivityBanner extends Activity {
         progressDialog.setCancelable(true);
         progressDialog.setMessage("Please wait");
         progressDialog.show();
+        System.out.println("product_link_banner..." + product_link_banner);
         new popular_b_AsynchTask().execute(product_link_banner);
     }
 
@@ -238,10 +241,54 @@ public class ProductDetailActivityBanner extends Activity {
                 } catch (Exception e) {
 
                 }
+
                 try {
-                    MainActivity.cartsDTO.setSize(sizes.get(0));
-                    MainActivity.cartsDTO.setColor_code(color_codes.get(0));
-                    MainActivity.cartsDTO.setColor_name(color_names.get(0));
+                    JSONObject product_attribute = productDataObject1.getJSONObject("product_attribute");
+                    Iterator<String> iterator = product_attribute.keys();
+                    if (iterator != null) {
+
+                        while (iterator.hasNext()) {
+                            vKeyValue = iterator.next();
+                            System.out.println("vKeyValue..." + vKeyValue);
+                            JSONObject attributeObject = product_attribute.getJSONArray(vKeyValue).getJSONObject(0);
+                            if (attributeObject.getString("attribute_name").equals("Color")) {
+                                System.out.println("Value..." + attributeObject.getString("value"));
+                                System.out.println("Color..." + attributeObject.getString("color"));
+                                color_names.add(attributeObject.getString("value"));
+                                color_codes.add(attributeObject.getString("color"));
+                            }
+                        }
+
+//                        if (iterator.hasNext()) {
+//                            // is key value ko add kar lena jab add to cart kro to okay
+//                            vKeyValue = iterator.next();
+//                            System.out.println("vKeyValue..." + vKeyValue);
+//                        }
+                    }
+//                    if (vKeyValue != null) {
+//                        if (vKeyValue.length() > 0) {
+//                            JSONObject attributeObject = product_attribute.getJSONArray(vKeyValue).getJSONObject(0);
+//                            if (attributeObject.getString("attribute_name").equals("Color")) {
+//                                System.out.println("Value..." + attributeObject.getString("value"));
+//                                System.out.println("Color..." + attributeObject.getString("color"));
+//                                color_names.add(attributeObject.getString("value"));
+//                                color_codes.add(attributeObject.getString("color"));
+//                            }
+//                        }
+//                    }
+                } catch (Exception e) {
+                    // TODO: handle exception
+                }
+                try {
+                    if (sizes.size() > 0) {
+                        MainActivity.cartsDTO.setSize(sizes.get(0));
+                    }
+                    if (color_codes.size() > 0) {
+                        MainActivity.cartsDTO.setColor_code(color_codes.get(0));
+                    }
+                    if (color_names.size() > 0) {
+                        MainActivity.cartsDTO.setColor_name(color_names.get(0));
+                    }
                 } catch (Exception e) {
 
                 }
@@ -586,6 +633,20 @@ public class ProductDetailActivityBanner extends Activity {
                     viewpager.setCurrentItem(v.getId());
                     Toast.makeText(ProductDetailActivityBanner.this,
                             "Color Selected.", Toast.LENGTH_SHORT).show();
+                    try {
+                        if (sizes.size() > 0) {
+                            MainActivity.cartsDTO.setSize(sizes.get(v.getId()));
+                        }
+                        if (color_codes.size() > 0) {
+                            MainActivity.cartsDTO.setColor_code(color_codes.get(v.getId()));
+                        }
+                        if (color_names.size() > 0) {
+                            MainActivity.cartsDTO.setColor_name(color_names.get(v.getId()));
+                        }
+                    } catch (Exception e) {
+
+                    }
+
                 }
             });
             show_color_view.addView(size_text);
