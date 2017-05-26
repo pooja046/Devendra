@@ -54,6 +54,7 @@ public class ProductDetailActivityBanner extends Activity {
     String default_color_code = "#000000";
     private TextView mCounter;
     private String vKeyValue = null;
+    private TextView txt_product_size, txt_product_color;
 
     ProductDetailActivityBanner productDetailActivityBanner;
 
@@ -85,11 +86,16 @@ public class ProductDetailActivityBanner extends Activity {
         txt_price = (TextView) findViewById(R.id.txt_rs);
         txt_color = (TextView) findViewById(R.id.tv_color1);
         txt_size = (TextView) findViewById(R.id.tv_size11);
-
         btn_to_cart_list = (Button) findViewById(R.id.btn_to_cart_list);
         txt_description = (TextView) findViewById(R.id.txt_product_description);
         show_size_view = (LinearLayout) findViewById(R.id.show_size_view);
         show_color_view = (LinearLayout) findViewById(R.id.show_color_view);
+
+        txt_product_size = (TextView) findViewById(R.id.txt_product_size);
+        txt_product_color = (TextView) findViewById(R.id.txt_product_color);
+        txt_product_size.setVisibility(View.GONE);
+        txt_product_color.setVisibility(View.GONE);
+
         sessionManager = new SessionManager(this);
         sizes = new ArrayList<String>();
         color_codes = new ArrayList<String>();
@@ -151,6 +157,7 @@ public class ProductDetailActivityBanner extends Activity {
         progressDialog.show();
         System.out.println("product_link_banner..." + product_link_banner);
         new popular_b_AsynchTask().execute(product_link_banner);
+
     }
 
     class popular_b_AsynchTask extends AsyncTask<String, Void, JSONObject> {
@@ -215,34 +222,6 @@ public class ProductDetailActivityBanner extends Activity {
                     // TODO: handle exception
                 }
                 try {
-                    JSONArray size = productDataObject1.getJSONArray("size");
-                    for (int i = 0; i < size.length(); i++) {
-                        sizes.add(size.getString(i));
-                    }
-
-                } catch (Exception e) {
-
-                }
-                try {
-                    JSONArray color_name = productDataObject1
-                            .getJSONArray("color");
-                    for (int i = 0; i < color_name.length(); i++) {
-                        color_names.add(color_name.getString(i));
-                    }
-                } catch (Exception e) {
-
-                }
-                try {
-                    JSONArray color_code = productDataObject1
-                            .getJSONArray("color_code");
-                    for (int i = 0; i < color_code.length(); i++) {
-                        color_codes.add(color_code.getString(i));
-                    }
-                } catch (Exception e) {
-
-                }
-
-                try {
                     JSONObject product_attribute = productDataObject1.getJSONObject("product_attribute");
                     Iterator<String> iterator = product_attribute.keys();
                     if (iterator != null) {
@@ -250,43 +229,37 @@ public class ProductDetailActivityBanner extends Activity {
                         while (iterator.hasNext()) {
                             vKeyValue = iterator.next();
                             System.out.println("vKeyValue..." + vKeyValue);
-                            JSONObject attributeObject = product_attribute.getJSONArray(vKeyValue).getJSONObject(0);
-                            if (attributeObject.getString("attribute_name").equals("Color")) {
-                                System.out.println("Value..." + attributeObject.getString("value"));
-                                System.out.println("Color..." + attributeObject.getString("color"));
-                                color_names.add(attributeObject.getString("value"));
-                                color_codes.add(attributeObject.getString("color"));
+                            JSONObject colorattributeObject = product_attribute.getJSONArray(vKeyValue).getJSONObject(0);
+                            if (colorattributeObject.getString("attribute_name").equals("Color")) {
+                                System.out.println("Value..." + colorattributeObject.getString("value"));
+                                System.out.println("Color..." + colorattributeObject.getString("color"));
+                                color_names.add(colorattributeObject.getString("value"));
+                                color_codes.add(colorattributeObject.getString("color"));
+                            }
+                            try {
+                                JSONObject sizeattributeObject = product_attribute.getJSONArray(vKeyValue).getJSONObject(1);
+                                if (sizeattributeObject.getString("attribute_name").equals("Size")) {
+                                    System.out.println("Value..." + sizeattributeObject.getString("value"));
+                                    sizes.add(sizeattributeObject.getString("value"));
+                                }
+                            } catch (Exception e) {
+
                             }
                         }
-
-//                        if (iterator.hasNext()) {
-//                            // is key value ko add kar lena jab add to cart kro to okay
-//                            vKeyValue = iterator.next();
-//                            System.out.println("vKeyValue..." + vKeyValue);
-//                        }
                     }
-//                    if (vKeyValue != null) {
-//                        if (vKeyValue.length() > 0) {
-//                            JSONObject attributeObject = product_attribute.getJSONArray(vKeyValue).getJSONObject(0);
-//                            if (attributeObject.getString("attribute_name").equals("Color")) {
-//                                System.out.println("Value..." + attributeObject.getString("value"));
-//                                System.out.println("Color..." + attributeObject.getString("color"));
-//                                color_names.add(attributeObject.getString("value"));
-//                                color_codes.add(attributeObject.getString("color"));
-//                            }
-//                        }
-//                    }
                 } catch (Exception e) {
                     // TODO: handle exception
                 }
                 try {
                     if (sizes.size() > 0) {
+                        txt_product_size.setVisibility(View.VISIBLE);
                         MainActivity.cartsDTO.setSize(sizes.get(0));
                     }
                     if (color_codes.size() > 0) {
                         MainActivity.cartsDTO.setColor_code(color_codes.get(0));
                     }
                     if (color_names.size() > 0) {
+                        txt_product_color.setVisibility(View.VISIBLE);
                         MainActivity.cartsDTO.setColor_name(color_names.get(0));
                     }
                 } catch (Exception e) {
@@ -580,7 +553,8 @@ public class ProductDetailActivityBanner extends Activity {
                 @Override
                 public void onClick(View v) {
                     try {
-                        MainActivity.cartsDTO.setSize(sizes.get(v.getId()));
+                        Toast.makeText(ProductDetailActivityBanner.this, "" + size_text.getText().toString().trim(), Toast.LENGTH_SHORT).show();
+                        MainActivity.cartsDTO.setSize(size_text.getText().toString().trim());
                     } catch (Exception e) {
 
                     }
@@ -634,9 +608,6 @@ public class ProductDetailActivityBanner extends Activity {
                     Toast.makeText(ProductDetailActivityBanner.this,
                             "Color Selected.", Toast.LENGTH_SHORT).show();
                     try {
-                        if (sizes.size() > 0) {
-                            MainActivity.cartsDTO.setSize(sizes.get(v.getId()));
-                        }
                         if (color_codes.size() > 0) {
                             MainActivity.cartsDTO.setColor_code(color_codes.get(v.getId()));
                         }

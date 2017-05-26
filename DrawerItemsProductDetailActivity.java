@@ -1,6 +1,7 @@
 package com.ealpha.homeclick;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import org.apache.http.NameValuePair;
@@ -54,8 +55,9 @@ public class DrawerItemsProductDetailActivity extends Activity {
     private int id_size = -1;
     private boolean is_same_size;
     String default_color_code = "#000000";
-
     private TextView mCounter;
+    private String vKeyValue = null;
+    private TextView txt_product_size, txt_product_color;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,6 +74,12 @@ public class DrawerItemsProductDetailActivity extends Activity {
         btn_to_cart_list = (Button) findViewById(R.id.btn_to_cart_list);
         show_size_view = (LinearLayout) findViewById(R.id.show_size_view);
         show_color_view = (LinearLayout) findViewById(R.id.show_color_view);
+
+        txt_product_size = (TextView) findViewById(R.id.txt_product_size);
+        txt_product_color = (TextView) findViewById(R.id.txt_product_color);
+        txt_product_size.setVisibility(View.GONE);
+        txt_product_color.setVisibility(View.GONE);
+
         sizes = new ArrayList<String>();
         color_codes = new ArrayList<String>();
         color_names = new ArrayList<String>();
@@ -207,36 +215,46 @@ public class DrawerItemsProductDetailActivity extends Activity {
                     // TODO: handle exception
                 }
                 try {
-                    JSONArray size = productDataObject.getJSONArray("size");
-                    for (int i = 0; i < size.length(); i++) {
-                        sizes.add(size.getString(i));
+                    JSONObject product_attribute = productDataObject.getJSONObject("product_attribute");
+                    Iterator<String> iterator = product_attribute.keys();
+                    if (iterator != null) {
+
+                        while (iterator.hasNext()) {
+                            vKeyValue = iterator.next();
+                            System.out.println("vKeyValue..." + vKeyValue);
+                            JSONObject colorattributeObject = product_attribute.getJSONArray(vKeyValue).getJSONObject(0);
+                            if (colorattributeObject.getString("attribute_name").equals("Color")) {
+                                System.out.println("Value..." + colorattributeObject.getString("value"));
+                                System.out.println("Color..." + colorattributeObject.getString("color"));
+                                color_names.add(colorattributeObject.getString("value"));
+                                color_codes.add(colorattributeObject.getString("color"));
+                            }
+                            try {
+                                JSONObject sizeattributeObject = product_attribute.getJSONArray(vKeyValue).getJSONObject(1);
+                                if (sizeattributeObject.getString("attribute_name").equals("Size")) {
+                                    System.out.println("Value..." + sizeattributeObject.getString("value"));
+                                    sizes.add(sizeattributeObject.getString("value"));
+                                }
+                            } catch (Exception e) {
+
+                            }
+                        }
                     }
-
                 } catch (Exception e) {
-
+                    // TODO: handle exception
                 }
                 try {
-                    JSONArray color_name = productDataObject
-                            .getJSONArray("color");
-                    for (int i = 0; i < color_name.length(); i++) {
-                        color_names.add(color_name.getString(i));
+                    if (sizes.size() > 0) {
+                        txt_product_size.setVisibility(View.VISIBLE);
+                        MainActivity.cartsDTO.setSize(sizes.get(0));
                     }
-                } catch (Exception e) {
-
-                }
-                try {
-                    JSONArray color_code = productDataObject
-                            .getJSONArray("color_code");
-                    for (int i = 0; i < color_code.length(); i++) {
-                        color_codes.add(color_code.getString(i));
+                    if (color_codes.size() > 0) {
+                        MainActivity.cartsDTO.setColor_code(color_codes.get(0));
                     }
-                } catch (Exception e) {
-
-                }
-                try {
-                    MainActivity.cartsDTO.setSize(sizes.get(0));
-                    MainActivity.cartsDTO.setColor_code(color_codes.get(0));
-                    MainActivity.cartsDTO.setColor_name(color_names.get(0));
+                    if (color_names.size() > 0) {
+                        txt_product_color.setVisibility(View.VISIBLE);
+                        MainActivity.cartsDTO.setColor_name(color_names.get(0));
+                    }
                 } catch (Exception e) {
 
                 }
@@ -528,7 +546,8 @@ public class DrawerItemsProductDetailActivity extends Activity {
                 @Override
                 public void onClick(View v) {
                     try {
-                        MainActivity.cartsDTO.setSize(sizes.get(v.getId()));
+                        Toast.makeText(DrawerItemsProductDetailActivity.this, "" + size_text.getText().toString().trim(), Toast.LENGTH_SHORT).show();
+                        MainActivity.cartsDTO.setSize(size_text.getText().toString().trim());
                     } catch (Exception e) {
 
                     }
@@ -581,7 +600,16 @@ public class DrawerItemsProductDetailActivity extends Activity {
                     viewpager.setCurrentItem(v.getId());
                     Toast.makeText(DrawerItemsProductDetailActivity.this,
                             "Color Selected.", Toast.LENGTH_SHORT).show();
+                    try {
+                        if (color_codes.size() > 0) {
+                            MainActivity.cartsDTO.setColor_code(color_codes.get(v.getId()));
+                        }
+                        if (color_names.size() > 0) {
+                            MainActivity.cartsDTO.setColor_name(color_names.get(v.getId()));
+                        }
+                    } catch (Exception e) {
 
+                    }
                 }
             });
             show_color_view.addView(size_text);
@@ -589,4 +617,3 @@ public class DrawerItemsProductDetailActivity extends Activity {
     }
 
 }
-
