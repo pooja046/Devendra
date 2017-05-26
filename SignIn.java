@@ -160,7 +160,6 @@ public class SignIn extends Fragment {
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-
                 Intent intent1 = new Intent(getActivity(), ForgotPassword.class);
                 startActivity(intent1);
                 getActivity().finish();
@@ -329,9 +328,13 @@ public class SignIn extends Fragment {
                             cartsDTO.setId_cart(vCart_Id);
                             cartsDTO.setId_product(id_product.getString(i));
                             cartsDTO.setProduct_name(product_name.getString(i));
-                            cartsDTO.setUnit_price(""
-                                    + (int) Float.parseFloat(unit_price
-                                    .getString(i)));
+                            try {
+                                cartsDTO.setUnit_price(""
+                                        + (int) Float.parseFloat(unit_price
+                                        .getString(i)));
+                            } catch (Exception e) {
+                                continue;
+                            }
                             cartsDTO.setTotal_price(total_price.getString(i));
                             cartsDTO.setProduct_img(product_img.getString(i));
                             cartsDTO.setProduct_link(product_link.getString(i));
