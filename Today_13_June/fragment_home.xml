@@ -1,0 +1,169 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.test.MainActivity" >
+
+    <ScrollView
+        android:id="@+id/start_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/lay_n_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/lay_pager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="10dp" >
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:background="#d8dde1"
+                    android:padding="2dp"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/lay_bann_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" >
+
+                    <ImageView
+                        android:id="@+id/img_btn_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        android:background="#f2f2f2"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_launcher" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lay_ban_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" >
+
+                    <ImageView
+                        android:id="@+id/img_btn_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        android:background="#f2f2f2"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_launcher" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lay_ban_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" >
+
+                    <ImageView
+                        android:id="@+id/img_btn_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_launcher" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lay_ban_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" >
+
+                    <ImageView
+                        android:id="@+id/img_btn_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_launcher" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_ban_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <ImageView
+                    android:id="@+id/img_btn_5"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/ic_launcher"
+                    android:text="@string/hello_world" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lay_tv_g_p"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp" >
+
+                <TextView
+                    android:id="@+id/tv_popularproducts"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:background="#ffffff"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="Our New Products"
+                    android:textColor="#1E90FF"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <include
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/home_grid_view" />
+
+            <ImageView
+                android:layout_width="330dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/shopping" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
