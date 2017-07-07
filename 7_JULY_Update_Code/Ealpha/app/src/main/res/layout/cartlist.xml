@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/items_count"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:background="#1E90FF"
+            android:gravity="center"
+            android:text="Items(0)"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/total_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:background="#1E90FF"
+            android:gravity="center"
+            android:text="Total:Rs.000"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/cart_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:dividerHeight="2dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:padding="7dp" >
+
+        <Button
+            android:id="@+id/place_order_cart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1E90FF"
+            android:text="PLACE ORDER"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <!-- <include layout="@layout/cart_shipping_detail" /> -->
+
+</LinearLayout>

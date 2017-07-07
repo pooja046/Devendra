@@ -1,0 +1,868 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:2:1-187:12
+	package
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:3:5-25
+		INJECTED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml
+		INJECTED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml
+		INJECTED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml
+		INJECTED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] /home/eclipse/.android/build-cache/2316f0052b3a85744f98c269f265e1e740a125f2/output/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services:10.2.4] /home/eclipse/.android/build-cache/90b0f3fa13e99347118e38c1271009652b6192f2/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads:10.2.4] /home/eclipse/.android/build-cache/8354807bb78e057fb2ab230a9fe65d1a5d674da8/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.4] /home/eclipse/.android/build-cache/b28abb77dab6fdead3720c63619e77969c65fdd6/output/AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-analytics:10.2.4] /home/eclipse/.android/build-cache/6f09a7d75c23414cbe7f1924981bc3b21fb86fcb/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.4] /home/eclipse/.android/build-cache/ab923b10ebd9b76f84f78b4e7734e261c607c5d1/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:10.2.4] /home/eclipse/.android/build-cache/c80d35b6786978053830146282a57cc65495b21e/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:10.2.4] /home/eclipse/.android/build-cache/3d0780a91a6d8162012cb48236ad4d97034dc239/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:10.2.4] /home/eclipse/.android/build-cache/d00e4e4ed99768a207d86cc80ea82e9ac01c5894/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:10.2.4] /home/eclipse/.android/build-cache/ec36cf3c92beadf02b1174e87a1010e789fee0e3/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:mediarouter-v7:24.0.0] /home/eclipse/.android/build-cache/d50c146bb67331eecf309e18250b7fae1a103b33/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:24.0.0] /home/eclipse/.android/build-cache/bd94bdebe7e3b4474fdad554d795824214a53922/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:25.2.0] /home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/eclipse/.android/build-cache/79da64465890511043c85823ba75395f7628923c/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/eclipse/.android/build-cache/757961a838f6b5dd1be706e983ca059744325c2f/output/AndroidManifest.xml:21:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.4] /home/eclipse/.android/build-cache/57cf663692a7b21e4df99403e01042c754a2411f/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:10.2.4] /home/eclipse/.android/build-cache/f59b472a3a733694d66a4bebb4b65aed1300486b/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:10.2.4] /home/eclipse/.android/build-cache/df11bca002ee20c204e2845a90fd9175a7a5ecb3/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:10.2.4] /home/eclipse/.android/build-cache/dd6f41bfb423719ee7a79f30c0b19525037a70fd/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-auth:10.2.4] /home/eclipse/.android/build-cache/90c0482c7c8f80eaf80e7f76873786d79f1e010c/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-database:10.2.4] /home/eclipse/.android/build-cache/8b4fe477554b6bd78a0514f1b30cf8edd801c6d0/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:10.2.4] /home/eclipse/.android/build-cache/554847a292ebc78e63222299b903dc3b8ffd0a74/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.4] /home/eclipse/.android/build-cache/695ca1c9e78781727fa8cc52edcb3b89530cfcf9/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage:10.2.4] /home/eclipse/.android/build-cache/3f1f5f138cdaedcecc746874bf3e5771445ec180/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:10.2.4] /home/eclipse/.android/build-cache/15a086aa2f91adb0480b6643e5083ea51672ff40/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-fitness:10.2.4] /home/eclipse/.android/build-cache/60022dfec42a9e143c29de81a64bb8fd060f576f/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:10.2.4] /home/eclipse/.android/build-cache/423610dd391daf5743973c282e153dc85ee03eb9/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:10.2.4] /home/eclipse/.android/build-cache/6f5f54615cdbcfbac6a251dba7a8e1f47e283d05/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gass:10.2.4] /home/eclipse/.android/build-cache/8b74c4d2ca97bccca5bf84cad0a5c5628ac56829/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gcm:10.2.4] /home/eclipse/.android/build-cache/a9c6ab3f0062e1ebba4e9210a48eb6a8b0eed021/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:10.2.4] /home/eclipse/.android/build-cache/e12eb7fd473815dc41e42e690c02a14e4efd573e/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:10.2.4] /home/eclipse/.android/build-cache/1610e019e1abac12cd76e0c2f8227ec5a7098853/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:10.2.4] /home/eclipse/.android/build-cache/a7adf9949a8f032ec0f5eb87f7d658e48a6921f6/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:10.2.4] /home/eclipse/.android/build-cache/ff9557d149b70e3a421dd9771395cbc981727095/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:10.2.4] /home/eclipse/.android/build-cache/a4b56b11fe338b880b0c791c530677bfa731d9db/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-panorama:10.2.4] /home/eclipse/.android/build-cache/69e0cbf36880203e64a954220a7f0a0e8b18994c/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:10.2.4] /home/eclipse/.android/build-cache/8a4c6d1d03d143866afe70d83946d8dd0f017cca/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:10.2.4] /home/eclipse/.android/build-cache/cf34e5b0ad26e73b73cdb1ea8a0800a791426ee3/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:10.2.4] /home/eclipse/.android/build-cache/2f86e67d757965c76c4a25549bd354a78a3b17d3/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:10.2.4] /home/eclipse/.android/build-cache/85da56db6eaeacaf99016316287214b09da15ca4/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/eclipse/.android/build-cache/7072b11f65bcdb93d2953c265f9a61bbb00ddcea/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.4] /home/eclipse/.android/build-cache/b88390cd1578d38b87eaee1ebcc6688532d776b5/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] /home/eclipse/.android/build-cache/0b1f731f2d1bd4414b01aa59214d5bd1912b5b2b/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-vision:10.2.4] /home/eclipse/.android/build-cache/5c5e50bbde988ac70f98237d86c6383fd4dadd31/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-wallet:10.2.4] /home/eclipse/.android/build-cache/a57b983fb05f90068240e98b537047127edf4a61/output/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-identity:10.2.4] /home/eclipse/.android/build-cache/7e5885021dbc1556361ad579e971ba88e5570d66/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /home/eclipse/.android/build-cache/356fb9eaed76dabe1dbb8d09ab707870c995c075/output/AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-wearable:10.2.4] /home/eclipse/.android/build-cache/deb57b554a7e76cde949edaea1d92f31b9efc6d1/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.4] /home/eclipse/.android/build-cache/89121fb4c45bf4453b2d8312a1bebb31d9158c18/output/AndroidManifest.xml:17:5-43
+MERGED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:5:5-7:62
+MERGED from [com.google.firebase:firebase-core:10.2.4] /home/eclipse/.android/build-cache/c515c01812479a76a1a11fb7839610cdc0d9ffa1/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] /home/eclipse/.android/build-cache/7c7dabc05ae4b96baadc467d670e0632142e3214/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /home/eclipse/.android/build-cache/900ca725ce2145f341face1a63e0898fa1b9b8f0/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /home/eclipse/.android/build-cache/24019f039412bef28671ad198037e017880a3d7a/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.4] /home/eclipse/.android/build-cache/76798ae5650c533ff8d8f3460b719e304a16e741/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /home/eclipse/.android/build-cache/4c3f25919382d359b487ce5efae9425321526275/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /home/eclipse/.android/build-cache/dc453b605c9f094f438d0d0ae509444a4a0bc39e/output/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.2.0] /home/eclipse/.android/build-cache/608d63d83d8b2d8947461bd9bc1f4f3e2bd40e27/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] /home/eclipse/.android/build-cache/2585ff546bddfca591ee529652b7b7598277665d/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/eclipse/.android/build-cache/153d1e755d2ea84c5aecf62952b6daf6631e6300/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/eclipse/.android/build-cache/b463ab4dc42814f10f51b01f721fa94392c4e444/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/eclipse/.android/build-cache/876b99f867aa3280681fbea43b9fe9aea868968b/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] /home/eclipse/.android/build-cache/72f4d81b3364481a1a5c16730cd41303b3c6bfbf/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.2.0] /home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml
+		INJECTED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml
+		INJECTED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.4] /home/eclipse/.android/build-cache/b28abb77dab6fdead3720c63619e77969c65fdd6/output/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:10.2.4] /home/eclipse/.android/build-cache/6f09a7d75c23414cbe7f1924981bc3b21fb86fcb/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.4] /home/eclipse/.android/build-cache/ab923b10ebd9b76f84f78b4e7734e261c607c5d1/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:10.2.4] /home/eclipse/.android/build-cache/dd6f41bfb423719ee7a79f30c0b19525037a70fd/output/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:10.2.4] /home/eclipse/.android/build-cache/a9c6ab3f0062e1ebba4e9210a48eb6a8b0eed021/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.2.4] /home/eclipse/.android/build-cache/1610e019e1abac12cd76e0c2f8227ec5a7098853/output/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/eclipse/.android/build-cache/7072b11f65bcdb93d2953c265f9a61bbb00ddcea/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] /home/eclipse/.android/build-cache/0b1f731f2d1bd4414b01aa59214d5bd1912b5b2b/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /home/eclipse/.android/build-cache/356fb9eaed76dabe1dbb8d09ab707870c995c075/output/AndroidManifest.xml:20:5-66
+MERGED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:17:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] /home/eclipse/.android/build-cache/7c7dabc05ae4b96baadc467d670e0632142e3214/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /home/eclipse/.android/build-cache/900ca725ce2145f341face1a63e0898fa1b9b8f0/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /home/eclipse/.android/build-cache/24019f039412bef28671ad198037e017880a3d7a/output/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:12:5-71
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:12:22-68
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:13:5-74
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:13:22-71
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:14:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.4] /home/eclipse/.android/build-cache/b28abb77dab6fdead3720c63619e77969c65fdd6/output/AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:10.2.4] /home/eclipse/.android/build-cache/6f09a7d75c23414cbe7f1924981bc3b21fb86fcb/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:10.2.4] /home/eclipse/.android/build-cache/a4b56b11fe338b880b0c791c530677bfa731d9db/output/AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/eclipse/.android/build-cache/7072b11f65bcdb93d2953c265f9a61bbb00ddcea/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] /home/eclipse/.android/build-cache/0b1f731f2d1bd4414b01aa59214d5bd1912b5b2b/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /home/eclipse/.android/build-cache/356fb9eaed76dabe1dbb8d09ab707870c995c075/output/AndroidManifest.xml:19:5-78
+MERGED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] /home/eclipse/.android/build-cache/7c7dabc05ae4b96baadc467d670e0632142e3214/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /home/eclipse/.android/build-cache/900ca725ce2145f341face1a63e0898fa1b9b8f0/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /home/eclipse/.android/build-cache/24019f039412bef28671ad198037e017880a3d7a/output/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:14:22-76
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:15:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:16:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:17:5-80
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:17:22-77
+application
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:19:5-185:19
+MERGED from [com.google.android.gms:play-services:10.2.4] /home/eclipse/.android/build-cache/90b0f3fa13e99347118e38c1271009652b6192f2/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.4] /home/eclipse/.android/build-cache/b28abb77dab6fdead3720c63619e77969c65fdd6/output/AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-analytics:10.2.4] /home/eclipse/.android/build-cache/6f09a7d75c23414cbe7f1924981bc3b21fb86fcb/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.4] /home/eclipse/.android/build-cache/ab923b10ebd9b76f84f78b4e7734e261c607c5d1/output/AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:10.2.4] /home/eclipse/.android/build-cache/c80d35b6786978053830146282a57cc65495b21e/output/AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-cast-framework:10.2.4] /home/eclipse/.android/build-cache/d00e4e4ed99768a207d86cc80ea82e9ac01c5894/output/AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:10.2.4] /home/eclipse/.android/build-cache/ec36cf3c92beadf02b1174e87a1010e789fee0e3/output/AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:24.0.0] /home/eclipse/.android/build-cache/d50c146bb67331eecf309e18250b7fae1a103b33/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:palette-v7:24.0.0] /home/eclipse/.android/build-cache/bd94bdebe7e3b4474fdad554d795824214a53922/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:appcompat-v7:25.2.0] /home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /home/eclipse/.android/build-cache/79da64465890511043c85823ba75395f7628923c/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /home/eclipse/.android/build-cache/757961a838f6b5dd1be706e983ca059744325c2f/output/AndroidManifest.xml:23:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.4] /home/eclipse/.android/build-cache/57cf663692a7b21e4df99403e01042c754a2411f/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:10.2.4] /home/eclipse/.android/build-cache/f59b472a3a733694d66a4bebb4b65aed1300486b/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:10.2.4] /home/eclipse/.android/build-cache/df11bca002ee20c204e2845a90fd9175a7a5ecb3/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-crash:10.2.4] /home/eclipse/.android/build-cache/dd6f41bfb423719ee7a79f30c0b19525037a70fd/output/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth:10.2.4] /home/eclipse/.android/build-cache/90c0482c7c8f80eaf80e7f76873786d79f1e010c/output/AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-messaging:10.2.4] /home/eclipse/.android/build-cache/695ca1c9e78781727fa8cc52edcb3b89530cfcf9/output/AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.android.gms:play-services-fitness:10.2.4] /home/eclipse/.android/build-cache/60022dfec42a9e143c29de81a64bb8fd060f576f/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:10.2.4] /home/eclipse/.android/build-cache/423610dd391daf5743973c282e153dc85ee03eb9/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:10.2.4] /home/eclipse/.android/build-cache/6f5f54615cdbcfbac6a251dba7a8e1f47e283d05/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:10.2.4] /home/eclipse/.android/build-cache/8b74c4d2ca97bccca5bf84cad0a5c5628ac56829/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gcm:10.2.4] /home/eclipse/.android/build-cache/a9c6ab3f0062e1ebba4e9210a48eb6a8b0eed021/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:10.2.4] /home/eclipse/.android/build-cache/e12eb7fd473815dc41e42e690c02a14e4efd573e/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.2.4] /home/eclipse/.android/build-cache/1610e019e1abac12cd76e0c2f8227ec5a7098853/output/AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:10.2.4] /home/eclipse/.android/build-cache/ff9557d149b70e3a421dd9771395cbc981727095/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-nearby:10.2.4] /home/eclipse/.android/build-cache/a4b56b11fe338b880b0c791c530677bfa731d9db/output/AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:10.2.4] /home/eclipse/.android/build-cache/69e0cbf36880203e64a954220a7f0a0e8b18994c/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:10.2.4] /home/eclipse/.android/build-cache/8a4c6d1d03d143866afe70d83946d8dd0f017cca/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:10.2.4] /home/eclipse/.android/build-cache/cf34e5b0ad26e73b73cdb1ea8a0800a791426ee3/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:10.2.4] /home/eclipse/.android/build-cache/2f86e67d757965c76c4a25549bd354a78a3b17d3/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/eclipse/.android/build-cache/7072b11f65bcdb93d2953c265f9a61bbb00ddcea/output/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.4] /home/eclipse/.android/build-cache/b88390cd1578d38b87eaee1ebcc6688532d776b5/output/AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] /home/eclipse/.android/build-cache/0b1f731f2d1bd4414b01aa59214d5bd1912b5b2b/output/AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-vision:10.2.4] /home/eclipse/.android/build-cache/5c5e50bbde988ac70f98237d86c6383fd4dadd31/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-identity:10.2.4] /home/eclipse/.android/build-cache/7e5885021dbc1556361ad579e971ba88e5570d66/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] /home/eclipse/.android/build-cache/356fb9eaed76dabe1dbb8d09ab707870c995c075/output/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-wearable:10.2.4] /home/eclipse/.android/build-cache/deb57b554a7e76cde949edaea1d92f31b9efc6d1/output/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.4] /home/eclipse/.android/build-cache/89121fb4c45bf4453b2d8312a1bebb31d9158c18/output/AndroidManifest.xml:18:5-20:19
+MERGED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:49:5-91:19
+MERGED from [com.google.firebase:firebase-core:10.2.4] /home/eclipse/.android/build-cache/c515c01812479a76a1a11fb7839610cdc0d9ffa1/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] /home/eclipse/.android/build-cache/7c7dabc05ae4b96baadc467d670e0632142e3214/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /home/eclipse/.android/build-cache/900ca725ce2145f341face1a63e0898fa1b9b8f0/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /home/eclipse/.android/build-cache/24019f039412bef28671ad198037e017880a3d7a/output/AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:10.2.4] /home/eclipse/.android/build-cache/76798ae5650c533ff8d8f3460b719e304a16e741/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /home/eclipse/.android/build-cache/4c3f25919382d359b487ce5efae9425321526275/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /home/eclipse/.android/build-cache/dc453b605c9f094f438d0d0ae509444a4a0bc39e/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.2.0] /home/eclipse/.android/build-cache/608d63d83d8b2d8947461bd9bc1f4f3e2bd40e27/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /home/eclipse/.android/build-cache/2585ff546bddfca591ee529652b7b7598277665d/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /home/eclipse/.android/build-cache/153d1e755d2ea84c5aecf62952b6daf6631e6300/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /home/eclipse/.android/build-cache/b463ab4dc42814f10f51b01f721fa94392c4e444/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /home/eclipse/.android/build-cache/876b99f867aa3280681fbea43b9fe9aea868968b/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /home/eclipse/.android/build-cache/72f4d81b3364481a1a5c16730cd41303b3c6bfbf/output/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:23:9-41
+	android:allowBackup
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:21:9-35
+	android:icon
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:22:9-46
+	android:largeHeap
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:24:9-33
+	android:theme
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:25:9-70
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:20:9-47
+meta-data#android.app.default_searchable
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:26:9-28:53
+	android:value
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:28:13-50
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:27:13-58
+activity#com.ealpha.main.Splash
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:30:9-40:20
+	android:screenOrientation
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:33:13-49
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:32:13-45
+	android:theme
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:34:13-60
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:31:13-40
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:35:13-39:29
+action#android.intent.action.MAIN
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:36:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:38:17-77
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:38:27-74
+activity#com.sairandhri.product.two.ProductActivity
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:41:9-48:20
+	android:screenOrientation
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:44:13-49
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:43:13-59
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:42:13-70
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:45:13-47:72
+	android:value
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:47:17-69
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:46:17-63
+activity#com.ealpha.drawer.LogIn
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:49:9-52:61
+	android:screenOrientation
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:52:13-49
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:51:13-58
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:50:13-41
+activity#com.ealpha.drawer.SignUp
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:53:9-56:61
+	android:screenOrientation
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:56:13-49
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:55:13-59
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:54:13-42
+activity#com.ealpha.drawer.ForgotPassword
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:57:9-59:79
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:59:13-67
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:58:13-50
+activity#com.ealpha.drawer.FeedBack
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:60:9-62:73
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:62:13-61
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:61:13-44
+activity#com.ealpha.drawer.ManageProfile
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:63:9-65:78
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:65:13-66
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:64:13-49
+activity#com.ealpha.drawer.NewsEvents
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:66:9-68:75
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:68:13-63
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:67:13-46
+activity#com.sairandhri.product.details.three.ProductDetailActivity
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:69:9-71:78
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:71:13-66
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:70:13-86
+activity#com.ealpha.main.MainActivity
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:72:9-64
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:72:19-52
+activity#com.ealpha.drawer.SignIn
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:73:9-75:71
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:75:13-59
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:74:13-42
+activity#com.ealpha.drawer.Collection
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:76:9-78:74
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:78:13-62
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:77:13-46
+activity#com.ealpha.drawer.Feedback
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:79:9-81:72
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:81:13-60
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:80:13-44
+activity#com.ealpha.drawer.AboutUs
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:82:9-84:72
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:84:13-60
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:83:13-43
+activity#com.ealpha.cart.Cart
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:85:9-87:68
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:87:13-56
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:86:13-38
+activity#com.ealpha.wishlist.WishList
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:88:9-90:73
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:90:13-61
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:89:13-46
+activity#com.ealpha.drawer.PrivacyPolicy
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:91:9-93:78
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:93:13-66
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:92:13-49
+activity#com.ealpha.drawer.TermsOfServices
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:94:9-96:81
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:96:13-69
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:95:13-51
+activity#com.sairandhri.product.details.three.WishListDetailActivity
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:97:9-99:81
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:99:13-69
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:98:13-87
+activity#com.ealpha.wishlist.WishlistProductDetailActivity
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:100:9-102:87
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:102:13-75
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:101:13-67
+activity#com.ealpha.cart.CartProductDetailActivity
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:103:9-105:83
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:105:13-71
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:104:13-59
+activity#com.ealpha.main.SearchActivity
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:112:9-126:20
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:114:13-45
+	android:launchMode
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:115:13-43
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:113:13-48
+intent-filter#android.intent.action.SEARCH
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:116:13-118:29
+action#android.intent.action.SEARCH
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:117:17-71
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:117:25-68
+intent-filter#android.intent.action.VIEW
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:119:13-121:29
+action#android.intent.action.VIEW
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:120:17-69
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:120:25-66
+meta-data#android.app.searchable
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:123:13-125:57
+	android:resource
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:125:17-54
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:124:17-54
+activity#com.ealpha.main.SearchNewActivity
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:127:9-129:74
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:129:13-62
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:128:13-51
+activity#com.ealpha.homeclick.BannerClick
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:130:9-68
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:130:19-56
+activity#com.ealpha.homeclick.SliderClick
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:131:9-68
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:131:19-56
+activity#com.ealpha.homeclick.ProductDetailActivityPP
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:132:9-134:57
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:134:13-45
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:133:13-62
+activity#com.ealpha.homeclick.ProductDetailActivitySlider
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:135:9-137:57
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:137:13-45
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:136:13-66
+activity#com.ealpha.homeclick.ProductDetailActivityBanner
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:138:9-140:57
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:140:13-45
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:139:13-66
+activity#com.men.MenTwo
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:141:9-143:71
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:143:13-59
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:142:13-42
+activity#com.ealpha.homeclick.DrawerItemsProductDetailActivity
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:144:9-89
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:144:19-77
+activity#com.ealpha.WishListActivity
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:145:9-147:73
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:147:13-61
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:146:13-45
+activity#com.ealpha.cart.ShippingAddress
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:148:9-77
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:148:19-65
+activity#com.ealpha.cart.ShippingAddressListActivity
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:149:9-89
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:149:19-77
+activity#com.ealpha.cart.ShippingAddressListitemDetailActivity
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:150:9-99
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:150:19-87
+activity#com.ealpha.drawer.CustomerCare
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:151:9-154:78
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:154:13-66
+	android:exported
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:153:13-36
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:152:13-58
+activity#com.ealpha.checkout.CheckoutActivity
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:155:9-157:49
+	android:label
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:157:13-37
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:156:13-64
+activity#com.ealpha.cart.OrderHistory
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:158:9-74
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:158:19-62
+activity#com.ealpha.cart.OrderHistoryDetails
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:159:9-81
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:159:19-69
+activity#com.ealpha.cart.PaymentOptions
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:160:9-76
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:160:19-64
+activity#com.ealpha.drawer.SignInActivity
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:161:9-163:61
+	android:screenOrientation
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:163:13-49
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:162:13-60
+service#com.fcm.MyFirebaseMessagingService
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:165:9-169:19
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:165:18-67
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:166:13-168:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:167:17-78
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:167:25-75
+service#com.fcm.MyFirebaseInstanceIDService
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:170:9-174:19
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:170:18-68
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:171:13-173:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:172:17-80
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:172:25-77
+service#com.fcm.MyNotificationExtenderService
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:176:9-182:19
+	android:exported
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:178:13-37
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:177:13-65
+intent-filter#com.onesignal.NotificationExtender
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:179:13-181:29
+action#com.onesignal.NotificationExtender
+ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:180:17-77
+	android:name
+		ADDED from /home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/AndroidManifest.xml:180:25-74
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] /home/eclipse/.android/build-cache/b28abb77dab6fdead3720c63619e77969c65fdd6/output/AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] /home/eclipse/.android/build-cache/b28abb77dab6fdead3720c63619e77969c65fdd6/output/AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] /home/eclipse/.android/build-cache/b28abb77dab6fdead3720c63619e77969c65fdd6/output/AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] /home/eclipse/.android/build-cache/b28abb77dab6fdead3720c63619e77969c65fdd6/output/AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] /home/eclipse/.android/build-cache/b28abb77dab6fdead3720c63619e77969c65fdd6/output/AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] /home/eclipse/.android/build-cache/b28abb77dab6fdead3720c63619e77969c65fdd6/output/AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.4] /home/eclipse/.android/build-cache/b28abb77dab6fdead3720c63619e77969c65fdd6/output/AndroidManifest.xml:26:19-91
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:10.2.4] /home/eclipse/.android/build-cache/6f09a7d75c23414cbe7f1924981bc3b21fb86fcb/output/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.4] /home/eclipse/.android/build-cache/0b1f731f2d1bd4414b01aa59214d5bd1912b5b2b/output/AndroidManifest.xml:24:5-67
+MERGED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:19:5-68
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] /home/eclipse/.android/build-cache/7c7dabc05ae4b96baadc467d670e0632142e3214/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /home/eclipse/.android/build-cache/900ca725ce2145f341face1a63e0898fa1b9b8f0/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /home/eclipse/.android/build-cache/24019f039412bef28671ad198037e017880a3d7a/output/AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:10.2.4] /home/eclipse/.android/build-cache/6f09a7d75c23414cbe7f1924981bc3b21fb86fcb/output/AndroidManifest.xml:24:22-65
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] /home/eclipse/.android/build-cache/ab923b10ebd9b76f84f78b4e7734e261c607c5d1/output/AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] /home/eclipse/.android/build-cache/ab923b10ebd9b76f84f78b4e7734e261c607c5d1/output/AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] /home/eclipse/.android/build-cache/ab923b10ebd9b76f84f78b4e7734e261c607c5d1/output/AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] /home/eclipse/.android/build-cache/ab923b10ebd9b76f84f78b4e7734e261c607c5d1/output/AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] /home/eclipse/.android/build-cache/ab923b10ebd9b76f84f78b4e7734e261c607c5d1/output/AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] /home/eclipse/.android/build-cache/ab923b10ebd9b76f84f78b4e7734e261c607c5d1/output/AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] /home/eclipse/.android/build-cache/ab923b10ebd9b76f84f78b4e7734e261c607c5d1/output/AndroidManifest.xml:22:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] /home/eclipse/.android/build-cache/ab923b10ebd9b76f84f78b4e7734e261c607c5d1/output/AndroidManifest.xml:23:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.4] /home/eclipse/.android/build-cache/ab923b10ebd9b76f84f78b4e7734e261c607c5d1/output/AndroidManifest.xml:23:27-73
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:10.2.4] /home/eclipse/.android/build-cache/c80d35b6786978053830146282a57cc65495b21e/output/AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:10.2.4] /home/eclipse/.android/build-cache/c80d35b6786978053830146282a57cc65495b21e/output/AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.4] /home/eclipse/.android/build-cache/c80d35b6786978053830146282a57cc65495b21e/output/AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:10.2.4] /home/eclipse/.android/build-cache/c80d35b6786978053830146282a57cc65495b21e/output/AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.4] /home/eclipse/.android/build-cache/c80d35b6786978053830146282a57cc65495b21e/output/AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:10.2.4] /home/eclipse/.android/build-cache/c80d35b6786978053830146282a57cc65495b21e/output/AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.4] /home/eclipse/.android/build-cache/c80d35b6786978053830146282a57cc65495b21e/output/AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:10.2.4] /home/eclipse/.android/build-cache/c80d35b6786978053830146282a57cc65495b21e/output/AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.4] /home/eclipse/.android/build-cache/c80d35b6786978053830146282a57cc65495b21e/output/AndroidManifest.xml:24:18-63
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.4] /home/eclipse/.android/build-cache/d00e4e4ed99768a207d86cc80ea82e9ac01c5894/output/AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.4] /home/eclipse/.android/build-cache/d00e4e4ed99768a207d86cc80ea82e9ac01c5894/output/AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.4] /home/eclipse/.android/build-cache/d00e4e4ed99768a207d86cc80ea82e9ac01c5894/output/AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.4] /home/eclipse/.android/build-cache/d00e4e4ed99768a207d86cc80ea82e9ac01c5894/output/AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.4] /home/eclipse/.android/build-cache/d00e4e4ed99768a207d86cc80ea82e9ac01c5894/output/AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.4] /home/eclipse/.android/build-cache/d00e4e4ed99768a207d86cc80ea82e9ac01c5894/output/AndroidManifest.xml:7:18-90
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.2.4] /home/eclipse/.android/build-cache/695ca1c9e78781727fa8cc52edcb3b89530cfcf9/output/AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.2.4] /home/eclipse/.android/build-cache/695ca1c9e78781727fa8cc52edcb3b89530cfcf9/output/AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.4] /home/eclipse/.android/build-cache/695ca1c9e78781727fa8cc52edcb3b89530cfcf9/output/AndroidManifest.xml:23:18-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:10.2.4] /home/eclipse/.android/build-cache/a9c6ab3f0062e1ebba4e9210a48eb6a8b0eed021/output/AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.2.4] /home/eclipse/.android/build-cache/1610e019e1abac12cd76e0c2f8227ec5a7098853/output/AndroidManifest.xml:20:5-81
+MERGED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:18:5-82
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /home/eclipse/.android/build-cache/24019f039412bef28671ad198037e017880a3d7a/output/AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:10.2.4] /home/eclipse/.android/build-cache/a9c6ab3f0062e1ebba4e9210a48eb6a8b0eed021/output/AndroidManifest.xml:20:22-79
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/eclipse/.android/build-cache/7072b11f65bcdb93d2953c265f9a61bbb00ddcea/output/AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/eclipse/.android/build-cache/7072b11f65bcdb93d2953c265f9a61bbb00ddcea/output/AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/eclipse/.android/build-cache/7072b11f65bcdb93d2953c265f9a61bbb00ddcea/output/AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/eclipse/.android/build-cache/7072b11f65bcdb93d2953c265f9a61bbb00ddcea/output/AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/eclipse/.android/build-cache/7072b11f65bcdb93d2953c265f9a61bbb00ddcea/output/AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/eclipse/.android/build-cache/7072b11f65bcdb93d2953c265f9a61bbb00ddcea/output/AndroidManifest.xml:25:94-118
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/eclipse/.android/build-cache/7072b11f65bcdb93d2953c265f9a61bbb00ddcea/output/AndroidManifest.xml:25:19-93
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/eclipse/.android/build-cache/7072b11f65bcdb93d2953c265f9a61bbb00ddcea/output/AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/eclipse/.android/build-cache/7072b11f65bcdb93d2953c265f9a61bbb00ddcea/output/AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/eclipse/.android/build-cache/7072b11f65bcdb93d2953c265f9a61bbb00ddcea/output/AndroidManifest.xml:27:23-69
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/eclipse/.android/build-cache/7072b11f65bcdb93d2953c265f9a61bbb00ddcea/output/AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.4] /home/eclipse/.android/build-cache/7072b11f65bcdb93d2953c265f9a61bbb00ddcea/output/AndroidManifest.xml:30:27-75
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.2.4] /home/eclipse/.android/build-cache/356fb9eaed76dabe1dbb8d09ab707870c995c075/output/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.2.4] /home/eclipse/.android/build-cache/356fb9eaed76dabe1dbb8d09ab707870c995c075/output/AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.2.4] /home/eclipse/.android/build-cache/356fb9eaed76dabe1dbb8d09ab707870c995c075/output/AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.4] /home/eclipse/.android/build-cache/89121fb4c45bf4453b2d8312a1bebb31d9158c18/output/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] /home/eclipse/.android/build-cache/89121fb4c45bf4453b2d8312a1bebb31d9158c18/output/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] /home/eclipse/.android/build-cache/89121fb4c45bf4453b2d8312a1bebb31d9158c18/output/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] /home/eclipse/.android/build-cache/89121fb4c45bf4453b2d8312a1bebb31d9158c18/output/AndroidManifest.xml:19:19-85
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:10:5-12:47
+	android:protectionLevel
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:12:9-44
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:11:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:14:22-76
+uses-permission#android.permission.VIBRATE
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:24:5-66
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:24:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:30:5-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:30:22-78
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:32:5-86
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:32:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:33:5-87
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:33:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:34:5-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:34:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:35:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:35:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:36:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:36:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:37:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:37:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:38:5-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:38:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:39:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:39:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:40:5-91
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:40:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:41:5-92
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:41:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:42:5-93
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:42:22-90
+uses-permission#android.permission.READ_APP_BADGE
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:43:5-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:43:22-70
+uses-permission#com.oppo.launcher.permission.READ_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:44:5-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:44:22-79
+uses-permission#com.oppo.launcher.permission.WRITE_SETTINGS
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:45:5-83
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:45:22-80
+uses-permission#me.everything.badger.permission.BADGE_COUNT_READ
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:46:5-88
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:46:22-85
+uses-permission#me.everything.badger.permission.BADGE_COUNT_WRITE
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:47:5-89
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:47:22-86
+meta-data#onesignal_app_id
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:50:9-52:51
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:52:13-48
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:51:13-44
+meta-data#onesignal_google_project_number
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:54:9-56:70
+	android:value
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:56:13-67
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:55:13-59
+receiver#com.onesignal.GcmBroadcastReceiver
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:58:9-68:20
+	android:permission
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:60:13-73
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:59:13-62
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:63:13-67:29
+	android:priority
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:63:28-50
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:64:17-81
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:64:25-78
+category#${applicationId}
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:66:17-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:66:27-58
+receiver#com.onesignal.NotificationOpenedReceiver
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:69:9-77
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:69:19-74
+service#com.onesignal.GcmIntentService
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:71:9-66
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:71:18-63
+service#com.onesignal.SyncService
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:72:9-61
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:72:18-58
+activity#com.onesignal.PermissionsActivity
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:74:9-76:75
+	android:theme
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:76:13-72
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:75:13-61
+service#com.onesignal.NotificationRestoreService
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:78:9-76
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:78:18-73
+receiver#com.onesignal.BootUpReceiver
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:80:9-85:20
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:80:19-62
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:81:13-84:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:82:17-79
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:82:25-76
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:83:17-82
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:83:25-79
+receiver#com.onesignal.UpgradeReceiver
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:86:9-90:20
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:86:19-63
+intent-filter#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:87:13-89:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:88:17-84
+	android:name
+		ADDED from [com.onesignal:OneSignal:3.5.8] /home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/AndroidManifest.xml:88:25-81
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/eclipse/.android/build-cache/7c7dabc05ae4b96baadc467d670e0632142e3214/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /home/eclipse/.android/build-cache/900ca725ce2145f341face1a63e0898fa1b9b8f0/output/AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/eclipse/.android/build-cache/7c7dabc05ae4b96baadc467d670e0632142e3214/output/AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/eclipse/.android/build-cache/7c7dabc05ae4b96baadc467d670e0632142e3214/output/AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/eclipse/.android/build-cache/7c7dabc05ae4b96baadc467d670e0632142e3214/output/AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/eclipse/.android/build-cache/7c7dabc05ae4b96baadc467d670e0632142e3214/output/AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/eclipse/.android/build-cache/7c7dabc05ae4b96baadc467d670e0632142e3214/output/AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/eclipse/.android/build-cache/7c7dabc05ae4b96baadc467d670e0632142e3214/output/AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/eclipse/.android/build-cache/7c7dabc05ae4b96baadc467d670e0632142e3214/output/AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/eclipse/.android/build-cache/7c7dabc05ae4b96baadc467d670e0632142e3214/output/AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/eclipse/.android/build-cache/7c7dabc05ae4b96baadc467d670e0632142e3214/output/AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/eclipse/.android/build-cache/7c7dabc05ae4b96baadc467d670e0632142e3214/output/AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/eclipse/.android/build-cache/7c7dabc05ae4b96baadc467d670e0632142e3214/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /home/eclipse/.android/build-cache/900ca725ce2145f341face1a63e0898fa1b9b8f0/output/AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/eclipse/.android/build-cache/7c7dabc05ae4b96baadc467d670e0632142e3214/output/AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/eclipse/.android/build-cache/7c7dabc05ae4b96baadc467d670e0632142e3214/output/AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/eclipse/.android/build-cache/7c7dabc05ae4b96baadc467d670e0632142e3214/output/AndroidManifest.xml:32:16-87
+permission#com.ealpha.permission.C2D_MESSAGE
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /home/eclipse/.android/build-cache/24019f039412bef28671ad198037e017880a3d7a/output/AndroidManifest.xml:24:5-109
+uses-permission#com.ealpha.permission.C2D_MESSAGE
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /home/eclipse/.android/build-cache/24019f039412bef28671ad198037e017880a3d7a/output/AndroidManifest.xml:26:5-78
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/eclipse/.android/build-cache/24019f039412bef28671ad198037e017880a3d7a/output/AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/eclipse/.android/build-cache/24019f039412bef28671ad198037e017880a3d7a/output/AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/eclipse/.android/build-cache/24019f039412bef28671ad198037e017880a3d7a/output/AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/eclipse/.android/build-cache/24019f039412bef28671ad198037e017880a3d7a/output/AndroidManifest.xml:30:19-84
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/eclipse/.android/build-cache/24019f039412bef28671ad198037e017880a3d7a/output/AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/eclipse/.android/build-cache/24019f039412bef28671ad198037e017880a3d7a/output/AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/eclipse/.android/build-cache/24019f039412bef28671ad198037e017880a3d7a/output/AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/eclipse/.android/build-cache/24019f039412bef28671ad198037e017880a3d7a/output/AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/eclipse/.android/build-cache/24019f039412bef28671ad198037e017880a3d7a/output/AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/eclipse/.android/build-cache/24019f039412bef28671ad198037e017880a3d7a/output/AndroidManifest.xml:43:18-82
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.2.4] /home/eclipse/.android/build-cache/76798ae5650c533ff8d8f3460b719e304a16e741/output/AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.2.4] /home/eclipse/.android/build-cache/76798ae5650c533ff8d8f3460b719e304a16e741/output/AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.2.4] /home/eclipse/.android/build-cache/76798ae5650c533ff8d8f3460b719e304a16e741/output/AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.2.4] /home/eclipse/.android/build-cache/76798ae5650c533ff8d8f3460b719e304a16e741/output/AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.2.4] /home/eclipse/.android/build-cache/76798ae5650c533ff8d8f3460b719e304a16e741/output/AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.4] /home/eclipse/.android/build-cache/dc453b605c9f094f438d0d0ae509444a4a0bc39e/output/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.4] /home/eclipse/.android/build-cache/dc453b605c9f094f438d0d0ae509444a4a0bc39e/output/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.4] /home/eclipse/.android/build-cache/dc453b605c9f094f438d0d0ae509444a4a0bc39e/output/AndroidManifest.xml:20:20-65

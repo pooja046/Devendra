@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "317234747746",
+    "firebase_url": "https://ealpha-a77e3.firebaseio.com",
+    "project_id": "ealpha-a77e3",
+    "storage_bucket": "ealpha-a77e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:317234747746:android:37f4792b2d46f61e",
+        "android_client_info": {
+          "package_name": "com.ealpha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "317234747746-q3ks4c4rlgnfsurbdrd11pajd1g90h7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAi5jMovPovXyRDJdA-YRKmbTUHecf0qlU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

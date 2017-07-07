@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ealpha"
+    android:versionCode="5"
+    android:versionName="1.4">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".utility.UILApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher2"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
+        <meta-data
+            android:name="android.app.default_searchable"
+            android:value=".SampleSearchActivity" />
+
+        <activity
+            android:name=".main.Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.sairandhri.product.two.ProductActivity"
+            android:label="@string/title_activity_product"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.sairandhri.main.one.MainActivity" />
+        </activity>
+        <activity
+            android:name=".drawer.LogIn"
+            android:label="@string/title_activity_log_in"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".drawer.SignUp"
+            android:label="@string/title_activity_sign_up"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".drawer.ForgotPassword"
+            android:label="@string/title_activity_forgot_password"></activity>
+        <activity
+            android:name=".drawer.FeedBack"
+            android:label="@string/title_activity_feed_back"></activity>
+        <activity
+            android:name=".drawer.ManageProfile"
+            android:label="@string/title_activity_manage_profile"></activity>
+        <activity
+            android:name=".drawer.NewsEvents"
+            android:label="@string/title_activity_news_events"></activity>
+        <activity
+            android:name="com.sairandhri.product.details.three.ProductDetailActivity"
+            android:label="@string/title_activity_product_detail"></activity>
+        <activity android:name=".main.MainActivity"></activity>
+        <activity
+            android:name=".drawer.SignIn"
+            android:label="@string/title_activity_sign_in"></activity>
+        <activity
+            android:name=".drawer.Collection"
+            android:label="@string/title_activity_collection"></activity>
+        <activity
+            android:name=".drawer.Feedback"
+            android:label="@string/title_activity_feedback"></activity>
+        <activity
+            android:name=".drawer.AboutUs"
+            android:label="@string/title_activity_about_us"></activity>
+        <activity
+            android:name=".cart.Cart"
+            android:label="@string/title_activity_cart"></activity>
+        <activity
+            android:name=".wishlist.WishList"
+            android:label="@string/title_activity_wish_list"></activity>
+        <activity
+            android:name=".drawer.PrivacyPolicy"
+            android:label="@string/title_activity_privacy_policy"></activity>
+        <activity
+            android:name=".drawer.TermsOfServices"
+            android:label="@string/title_activity_terms_of_services"></activity>
+        <activity
+            android:name="com.sairandhri.product.details.three.WishListDetailActivity"
+            android:label="@string/title_activity_terms_of_services"></activity>
+        <activity
+            android:name=".wishlist.WishlistProductDetailActivity"
+            android:label="@string/title_activity_wishlist_product_detail"></activity>
+        <activity
+            android:name=".cart.CartProductDetailActivity"
+            android:label="@string/title_activity_cart_product_detail"></activity>
+        <!--
+        <activity
+            android:name=".drawer.ForgotPassword"
+            android:label="@string/title_activity_forgot_paddword" >
+        </activity>
+        -->
+        <activity
+            android:name=".main.SearchActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@layout/searchable" />
+        </activity>
+        <activity
+            android:name=".main.SearchNewActivity"
+            android:label="@string/title_activity_search_new"></activity>
+        <activity android:name=".homeclick.BannerClick"></activity>
+        <activity android:name=".homeclick.SliderClick"></activity>
+        <activity
+            android:name=".homeclick.ProductDetailActivityPP"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".homeclick.ProductDetailActivitySlider"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name=".homeclick.ProductDetailActivityBanner"
+            android:label="@string/app_name"></activity>
+        <activity
+            android:name="com.men.MenTwo"
+            android:label="@string/title_activity_men_two"></activity>
+        <activity android:name=".homeclick.DrawerItemsProductDetailActivity"></activity>
+        <activity
+            android:name=".WishListActivity"
+            android:label="@string/title_activity_wish_list"></activity>
+        <activity android:name="com.ealpha.cart.ShippingAddress"></activity>
+        <activity android:name="com.ealpha.cart.ShippingAddressListActivity"></activity>
+        <activity android:name="com.ealpha.cart.ShippingAddressListitemDetailActivity"></activity>
+        <activity
+            android:name="com.ealpha.drawer.CustomerCare"
+            android:exported="true"
+            android:label="@string/action_settings_customer_care"></activity>
+        <activity
+            android:name="com.ealpha.checkout.CheckoutActivity"
+            android:label="Checkout"></activity>
+        <activity android:name="com.ealpha.cart.OrderHistory"></activity>
+        <activity android:name="com.ealpha.cart.OrderHistoryDetails"></activity>
+        <activity android:name="com.ealpha.cart.PaymentOptions"></activity>
+        <activity
+            android:name="com.ealpha.drawer.SignInActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <service android:name="com.fcm.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.fcm.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service
+            android:name="com.fcm.MyNotificationExtenderService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.onesignal.NotificationExtender" />
+            </intent-filter>
+        </service>
+
+
+    </application>
+
+</manifest>

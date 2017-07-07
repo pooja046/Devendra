@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:compat="http://schemas.android.com/apk/res-auto" >
+
+    
+<!-- 
+    Search / will display always
+    <item
+        android:id="@+id/action_search"
+        android:actionViewClass="android.widget.SearchView"
+        android:icon="@drawable/search"
+        android:title="Search"
+        android:showAsAction="always"/>
+
+    
+   <item
+        android:id="@+id/action_wishlist"
+        android:icon="@drawable/wishlist"
+        android:title="@string/action_settings_share"
+         android:showAsAction="always"/>
+    <item
+        android:id="@+id/action_cart_main"
+        android:icon="@drawable/add_to_cart"
+        android:title="@string/action_settings_share"
+         android:showAsAction="always"/>
+ 
+    Refresh
+
+    <item
+        android:id="@+id/menu_sharee"
+        android:actionProviderClass="android.widget.ShareActionProvider"
+        android:icon="@drawable/share_icon"
+        android:title="Share"
+         android:showAsAction="always"/>
+   
+ -->
+</menu>

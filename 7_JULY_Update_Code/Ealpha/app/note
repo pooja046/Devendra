@@ -1,0 +1,93 @@
+I am showing process step by step for API calling in sequence and also with the request and responce paramter: please check:
+
+API Calling Sequence:
+
+String vBase_Url="http://ealpha.com/mob/customers.php?";
+First we login:
+1. Login :-  customers=login
+param and actual values :
+username=dev08@gmail.com
+password=123456
+Responce:
+id_customer=8211 and some other field we have stored in session.
+
+than we click: left nevigation drawer and select sub-category Footwear under Man category load data from this below;
+2. http://ealpha.com/mob/customers.php?get_data=category_data&category_id=209&start_limit=0&end_limit=20
+
+
+3.Click on first item (Item name: Mens Black Lace-Up Shoes and product_id=8493) Go to detail screen call the api below for detail:
+http://ealpha.com//mob/customers.php?get_data=product_data&product_id=8493
+
+4. On Detail screen click on Add to cart button call api with the below request param:
+http://www.ealpha.com/mob/customers.php?customers=add_to_cart
+Request:
+id_customer=8211
+id_product=8493
+quantity=1
+Responce:
+{"add_to_cart":{"status":"Success","message":"Product successfully added to your shopping cart, Your Cart Id Is : 47785","Cart Id":"47785"}}
+
+5. Than click on Place Order button and add a addrees and get the address_id:
+Reponce :
+ {"address_data":{"status":"success","message":"Address Added Successfully","Address_Id":{"0":"11389"}}}
+ store this 11389 for Address id.
+
+6. go to for COD click:
+http://demo.ealpha.com/webservice/order.php?action=add
+
+
+Select AdMob type:
+1. Add Units: Select ad format and name ad unit
+1. Banner 2. Interstitial 3. Rewarded Video 4. Native
+
+Selection from the categories:
+2. Allow and Block Ads:
+1. Advertiser Urls 2. General Categories 3. Sensitive Categories
+
+3. Payment:
+ Account have option for Payment:
+ Sign in to your AdMob account at https://apps.admob.com.
+ Click Settings > Payments.
+ In the How you get paid section, click Add payment method.
+ Follow the on-screen instructions to choose your form of payment and save your changes.
+ but min: Payment threshold: $100.00
+
+and some links:
+https://www.quora.com/How-much-do-you-earn-via-your-Android-app-paid-or-free
+http://ryanmorel.com/mobile-advertising-calculator/
+http://rollncode.com/blog/how-to-calculate-mobile-advertising-revenue-for-app-with-100000-users/
+https://www.quora.com/How-much-does-an-Android-app-developer-get-paid-approximately-for-a-single-download-of-his-application-on-Play-Store
+
+Here is API, to get fees of COD.
+URL :- http://ealpha.com/mob/customers.php
+Variable 1 :- customers=cod   // name and value can not be change
+Variable 2 :- cod_amount=  // pass amount
+eg: for example
+
+
+http://ealpha.com/mob/customers.php?customers=cod&cod_amount=2199
+
+shipping address toatal k phle jahan free likha h wahan jo b url se msg me rupay aege ya to 59 ya phir 0 zerro pr free show aur 59 pr total me add krke cod krna ha
+
+tv_sub_total_rs
+tv_shipping_chage_rs
+tv_total_order_rs
+
+
+http://ealpha.com//mob/customers.php?get_data=product_data&product_id=8323
+
+
+only one color dikh rha h  agr kisi me 4 color ho tab b aur size ahi nhi rha h
+http://ealpha.com//mob/customers.php?get_data=product_data&product_id=10814
+http://ealpha.com//mob/customers.php?get_data=product_data&product_id=10814
+4 colore
+Home k banner image 3
+Lagging capris
+K andar first product
+
+https://documentation.onesignal.com/docs/android-sdk-setup-eclipse
+http://androidbash.com/android-push-notification-service-using-onesignal/
+
+
+
+

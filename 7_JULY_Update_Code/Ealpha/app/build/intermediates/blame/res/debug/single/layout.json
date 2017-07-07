@@ -1,0 +1,410 @@
+[
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/splash.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/splash.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/my_custom_toast.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/my_custom_toast.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/addresses_list_row.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/addresses_list_row.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/mr_chooser_list_item.xml",
+        "source": "/home/eclipse/.android/build-cache/d50c146bb67331eecf309e18250b7fae1a103b33/output/res/layout/mr_chooser_list_item.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/activity_main.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/custom_list_view.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/custom_list_view.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/mr_playback_control.xml",
+        "source": "/home/eclipse/.android/build-cache/d50c146bb67331eecf309e18250b7fae1a103b33/output/res/layout/mr_playback_control.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/drawer_list_item.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/drawer_list_item.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/payment_options.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/payment_options.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/place_autocomplete_fragment.xml",
+        "source": "/home/eclipse/.android/build-cache/8a4c6d1d03d143866afe70d83946d8dd0f017cca/output/res/layout/place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/place_autocomplete_item_powered_by_google.xml",
+        "source": "/home/eclipse/.android/build-cache/8a4c6d1d03d143866afe70d83946d8dd0f017cca/output/res/layout/place_autocomplete_item_powered_by_google.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/place_autocomplete_item_prediction.xml",
+        "source": "/home/eclipse/.android/build-cache/8a4c6d1d03d143866afe70d83946d8dd0f017cca/output/res/layout/place_autocomplete_item_prediction.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/notification_template_media.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/terms_of_services.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/terms_of_services.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/badge_layout.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/badge_layout.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/manage_profile.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/manage_profile.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/custom_list_view_child.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/custom_list_view_child.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/shipping_address_list_activity.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/shipping_address_list_activity.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/home_grid_view.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/home_grid_view.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/customer_care.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/customer_care.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/apply_voucher_code.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/apply_voucher_code.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/home_image_slider.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/home_image_slider.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_screen_toolbar.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/mr_controller_material_dialog_b.xml",
+        "source": "/home/eclipse/.android/build-cache/d50c146bb67331eecf309e18250b7fae1a103b33/output/res/layout/mr_controller_material_dialog_b.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/fragment_planet.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/fragment_planet.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/mr_controller_volume_item.xml",
+        "source": "/home/eclipse/.android/build-cache/d50c146bb67331eecf309e18250b7fae1a103b33/output/res/layout/mr_controller_volume_item.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/list_item.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/list_item.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/shipping__address_list.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/shipping__address_list.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/custom_actionbar.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/custom_actionbar.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_dialog_title_material.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/cast_tracks_chooser_dialog_row_layout.xml",
+        "source": "/home/eclipse/.android/build-cache/d00e4e4ed99768a207d86cc80ea82e9ac01c5894/output/res/layout/cast_tracks_chooser_dialog_row_layout.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/cast_tracks_chooser_dialog_layout.xml",
+        "source": "/home/eclipse/.android/build-cache/d00e4e4ed99768a207d86cc80ea82e9ac01c5894/output/res/layout/cast_tracks_chooser_dialog_layout.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/privacy_policy.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/privacy_policy.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/pdt_main.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/pdt_main.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_screen_content_include.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/cart_list_row.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/cart_list_row.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/sign_up.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/sign_up.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/wishlist.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/wishlist.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/cartlist.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/cartlist.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/searchable.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/searchable.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/mr_volume_control.xml",
+        "source": "/home/eclipse/.android/build-cache/d50c146bb67331eecf309e18250b7fae1a103b33/output/res/layout/mr_volume_control.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/orders_history.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/orders_history.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/cast_mini_controller.xml",
+        "source": "/home/eclipse/.android/build-cache/d00e4e4ed99768a207d86cc80ea82e9ac01c5894/output/res/layout/cast_mini_controller.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/feedback.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/feedback.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/mr_chooser_dialog.xml",
+        "source": "/home/eclipse/.android/build-cache/d50c146bb67331eecf309e18250b7fae1a103b33/output/res/layout/mr_chooser_dialog.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/activity_search_new.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/activity_search_new.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/cart_shipping_detail.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/cart_shipping_detail.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/sign_in.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/sign_in.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/place_autocomplete_progress.xml",
+        "source": "/home/eclipse/.android/build-cache/8a4c6d1d03d143866afe70d83946d8dd0f017cca/output/res/layout/place_autocomplete_progress.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/orders_history_row.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/orders_history_row.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/cast_expanded_controller_activity.xml",
+        "source": "/home/eclipse/.android/build-cache/d00e4e4ed99768a207d86cc80ea82e9ac01c5894/output/res/layout/cast_expanded_controller_activity.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/cast_intro_overlay.xml",
+        "source": "/home/eclipse/.android/build-cache/d00e4e4ed99768a207d86cc80ea82e9ac01c5894/output/res/layout/cast_intro_overlay.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/checkout.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/checkout.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/fragment_home.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/fragment_home.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_screen_simple.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/orders_id_history_row.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/orders_id_history_row.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/wish_list_row.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/wish_list_row.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/banner_home_slider_grid_row.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/banner_home_slider_grid_row.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/delivery_invoice.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/delivery_invoice.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/fragment_child_items_grid.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/fragment_child_items_grid.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/list_group_drawer.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/list_group_drawer.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/notification_template_custom_big.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/cast_help_text.xml",
+        "source": "/home/eclipse/.android/build-cache/d00e4e4ed99768a207d86cc80ea82e9ac01c5894/output/res/layout/cast_help_text.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/product_grid_row_view.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/product_grid_row_view.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/forgotpassword.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/forgotpassword.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/fragment_about_us.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/fragment_about_us.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout/select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/popular_product_deatail_activity.xml",
+        "source": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/src/main/res/layout/popular_product_deatail_activity.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout/onesignal_bgimage_notif_layout.xml",
+        "source": "/home/eclipse/.android/build-cache/22331c47433ae95ae35499b9b1b2e07191446b46/output/res/layout/onesignal_bgimage_notif_layout.xml"
+    }
+]

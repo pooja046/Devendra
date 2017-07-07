@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout-v21/place_autocomplete_fragment.xml",
+        "source": "/home/eclipse/.android/build-cache/8a4c6d1d03d143866afe70d83946d8dd0f017cca/output/res/layout-v21/place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

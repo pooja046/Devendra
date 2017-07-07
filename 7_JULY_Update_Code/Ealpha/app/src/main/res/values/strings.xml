@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">eAlpha</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="text_headline">HeadLine</string>
+    <string name="text_rs">rs....</string>
+    <string name="text_product_detail_fix">Porduct details</string>
+    <string name="text_product_detail">Product details</string>
+    <string name="button_wish_list">Add To-Wish List</string>
+    <string name="action_settings_share">Share</string>
+    <string name="action_settings_customer_care">Customer Care</string>
+    <string name="action_settings_noti">N</string>
+    <string name="action_settings">setting</string>
+    <string name="action_settings_wish">WishList</string>
+    <string name="title_activity_product">eAlpha Products</string>
+    <string name="title_activity_log_in">LogIn</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_forgot_password">ForgotPassword</string>
+    <string name="title_activity_feed_back">FeedBack</string>
+    <string name="title_activity_manage_profile">ManageProfile</string>
+    <string name="title_activity_news_events">NewsEvents</string>
+    <string name="title_activity_product_detail">ProductDetailActivity</string>
+    <string name="title_activity_main_activity_super">MainActivitySuper</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="title_activity_home">Home</string>
+
+    <!-- Content Description -->
+
+    <string name="title_activity_sign_in">SignIn</string>
+    <string name="title_activity_collection">Collection</string>
+    <string name="title_activity_feedback">Feedback</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_cart">Cart</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="email_is_required">EMAIL IS REQUIRED</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">max 12 character</string>
+    <string name="error_invalid">minimum 3 character</string>
+    <string name="title_activity_jack_pot_fragment">JackPotFragment</string>
+    <string name="title_activity_wish_list">WishList</string>
+    <string name="title_activity_privacy_policy">PrivacyPolicy</string>
+    <string name="title_activity_terms_of_services">TermsOfServices</string>
+    <string name="title_activity_wishlist_product_detail">WishlistProductDetailActivity</string>
+    <string name="title_activity_cart_product_detail">CartProductDetailActivity</string>
+    <string name="title_activity_forgot_paddword">ForgotPaddword</string>
+    <string name="sun">Sun</string>
+    <string name="moon">Moon</string>
+    <string name="Planets">Planets</string>
+
+    
+    <string-array name="sign_in"></string-array>
+        <string-array name="array_main_menu">
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_launcher</item>
+    </string-array>
+
+    <string name="title_activity_men_two">MenTwo</string>
+    <string name="title_activity_search_new">Search for products</string>
+    <string name="title_activity_banner_click">eAlpha Products</string>
+    <string name="title_activity_Product_detail">Products Details</string>
+
+</resources>

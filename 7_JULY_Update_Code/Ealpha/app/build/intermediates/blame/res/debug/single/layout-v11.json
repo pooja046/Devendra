@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout-v11/notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout-v11/notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout-v11/notification_template_big_media.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout-v11/notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
+        "source": "/home/eclipse/.android/build-cache/6f86eea4a76fb9560e8e306ec16aca5d5e35817a/output/res/layout-v11/notification_media_action.xml"
+    }
+]

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="header">#141f3d</color>
+    <color name="tabtext">#f5f5f5</color>
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#FFF222</color>
+    <color name="list_background_pressed">#51677d</color>
+    <color name="list_divider">#2a3035</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#343434</color>
+    <color name="action_bar">#343434</color>
+    <color name="white">#ffffffff</color>
+    <color name="off_white">#99ffffff</color>
+
+    <!-- Text sizes -->
+    <dimen name="text_size_small">14.0sp</dimen>
+    <dimen name="text_size_medium">16.0sp</dimen>
+ <color name="gray_3">#333333</color>
+    <!-- ActionBar color strip -->
+    <dimen name="colorstrip">5dp</dimen>
+
+</resources>

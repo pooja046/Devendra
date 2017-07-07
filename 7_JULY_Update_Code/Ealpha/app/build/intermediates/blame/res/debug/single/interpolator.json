@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/interpolator/mr_linear_out_slow_in.xml",
+        "source": "/home/eclipse/.android/build-cache/d50c146bb67331eecf309e18250b7fae1a103b33/output/res/interpolator/mr_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/res/merged/debug/interpolator/mr_fast_out_slow_in.xml",
+        "source": "/home/eclipse/.android/build-cache/d50c146bb67331eecf309e18250b7fae1a103b33/output/res/interpolator/mr_fast_out_slow_in.xml"
+    }
+]

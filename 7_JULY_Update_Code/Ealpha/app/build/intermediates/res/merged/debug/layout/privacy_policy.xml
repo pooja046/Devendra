@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawer4"
+    android:paddingBottom="10dp"
+    tools:context="com.example.coupon_deal.PrivacyPolicy" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/about" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="right|left"
+                android:padding="10dp"
+                android:text="We suggest you to read this Agreement cautiously prior making any purchase if you are not ok with all the terms and conditions of this Agreement then you must not use this Website. We highly respect your privacy of personal information hence we only gather information to accomplish your requests and our legitimate business goals, and we assure you that we will never share your personal information to third parties without your permission.
+
+Return Policy and cancellation policy:
+
+Prior accepting the delivery of our products, we advise our customers to check for packaging that it has not been broken or damaged. If you believe that the ordered item is not in good condition, or if the packaging is damaged, please refuse to take the delivery of the package, and call our all-day helpdesk at 0731-667 1111 or e-mail us info@ealpha.com, mentioning your order reference number and date of purchase. We will make our best efforts to ensure that we will replace the product as soon as possible.
+
+Returned product will be reviewed by our Quality Assurance department. Any item that shows the signs of damaged, altered, cannot be accepted for return. If you return any item which is delivered to you in damaged/defective condition, there will be no extra shipping charges.
+
+If you cancel an order that has not been shipped by us, we will cancel your offer and will refund your complete amount. The orders that have been shipped by us will not be cancelled in any case.
+
+Exchange policy:
+
+e-Alpha offers a hassle-free 3 days exchange from the date of delivery of product. In case if you are not satisfied with our product, we will gladly provide you exchange but the product should be “AS IT IS” and there will no refund of money in any case.
+
+Please Note:
+
+In the event of exchange the customer have to bear the shipping charges. We will not be responsible.
+
+Cheque purchases will not be shipped until and unless cheque has been cleared. If you return any item which is delivered to you in damaged/defective condition, there will be no extra shipping charges.
+
+Product Delivery:
+We will deliver the ordered item within 8-10days from date of purchase. We use third party courier services for delivery and shall not be legally responsible for any delay due to the delivery of service providers.
+
+Payment Mode:
+We accept the payment via
+
+Online Mode: Debit card, credit card, fund transfer.
+Offline Mode: Cheque, Drafts.
+Cash on delivery: Pay in cash, when the product is delivered it to you."
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

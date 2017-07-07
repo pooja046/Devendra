@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawer4"
+    android:paddingBottom="10dp"
+    tools:context="com.example.coupon_deal.TermsOfService" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/about" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:text="Exchange Policy:-
+
+E-alpha offers a hassle-free 3 days exchange from the date of delivery of product, but in case if product is defective or damaged. In any case there is no refund of money.
+
+
+Please Note :-
+
+In the event of exchange the customer have to bear the shipping charges. We will not be responsible."
+                android:textColor="#FFFFFF"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

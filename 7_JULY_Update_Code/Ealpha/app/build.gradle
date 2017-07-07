@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+
+    defaultConfig {
+        applicationId "com.ealpha"
+        minSdkVersion 14
+        targetSdkVersion 25
+        multiDexEnabled true
+        manifestPlaceholders = [onesignal_app_id: "f412a507-7ce0-427e-af46-c40c4a51c183",
+                                onesignal_google_project_number: "REMOTE"]
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+}
+
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:25.2.0'
+    // org.apache.http.client
+    compile 'org.jbundle.util.osgi.wrapped:org.jbundle.util.osgi.wrapped.org.apache.http.client:4.1.2'
+    // object convert gson retrofit2 lib...
+    compile 'com.squareup.retrofit2:converter-gson:2.0.0'
+    // asynchronous image lib picasso...
+    compile "com.squareup.picasso:picasso:2.4.0"
+    compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
+    compile 'com.google.android.gms:play-services:10.2.4'
+    compile 'com.android.support:multidex:1.0.1'
+//    compile 'com.google.code.gson:gson:1.1'
+//    compile 'com.android.support:appcompat-v7:21.0.3'
+//    compile files('libs/httpclient-4.3.5.jar')
+//    compile files('libs/httpclient-cache-4.5.1.jar')
+//    compile files('libs/httpcore-4.4.3.jar')
+//    compile files('libs/httpmime-4.5.1.jar')
+//    compile files('libs/picasso-2.5.2.jar')
+//    compile files('libs/universal-image-loader-1.9.5.jar')
+
+    // Required for OneSignal
+    compile 'com.onesignal:OneSignal:3.+@aar'
+    // Required for OneSignal
+   // compile 'com.google.android.gms:play-services-gcm:+'
+    // Required for geotagging
+   // compile "com.google.android.gms:play-services-location:+"
+
+}
+apply plugin: 'com.google.gms.google-services'

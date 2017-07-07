@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/a9c6ab3f0062e1ebba4e9210a48eb6a8b0eed021/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5cba8868595f6aaff54cf7d1798591108cf5611c">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_3476ffb4520641be2001ceb25cf5acb4bb1b06a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/7e5885021dbc1556361ad579e971ba88e5570d66/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="88ae4c6ceaeab7beca5e396e0698c6958e26a2d2">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_04eed17ce272783a5fb0587133c865478473c770.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/d50c146bb67331eecf309e18250b7fae1a103b33/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_dc5fb2793f3b494aa636cf08a23c4dbdf69e0633.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/3d0780a91a6d8162012cb48236ad4d97034dc239/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="688809418e4c2b5014a028c02708d6aeaba466ff">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_a71131200abd9ee0f82abb5dd337f08b6fe2d094.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/ab923b10ebd9b76f84f78b4e7734e261c607c5d1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d2d27edb6fbc12fdf28008cdff920e66f08cf159">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_2d3d5c880ef9c183d86cbeb141dd112a9d23286a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/ec36cf3c92beadf02b1174e87a1010e789fee0e3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="287051610dd01cc6eeaed7fc689712c31ad1ff70">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_6223f750c4d0bd497299714f5d245abee67f5f41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/6f5f54615cdbcfbac6a251dba7a8e1f47e283d05/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d66b8668122393a15c90471c5c974c25439d193a">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_5eab5eb357667f67007fb9cb735931e1ff981cd8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/900ca725ce2145f341face1a63e0898fa1b9b8f0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="43df709c95f6b0501b3adbc7da992b6a69a03214">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_8833c9c9f776f7afd4752766e4db893f5f3d1cd4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/423610dd391daf5743973c282e153dc85ee03eb9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93094dbb2af50e23339620bebd7b4b6161410edb">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_782aed20017fef935ece86201e1cb2f6d55db266.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/5c5e50bbde988ac70f98237d86c6383fd4dadd31/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2188ba20a948ec6e7fa671b818c69d876d8bf32d">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_57353666968d2b0837c21d7bed57e1f01bbd08b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/85da56db6eaeacaf99016316287214b09da15ca4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b2b4d3ecd541814f08200f8171def113095d5f39">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_abe9c204c6528d4091d2d3fe0870140dd79f4977.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/df11bca002ee20c204e2845a90fd9175a7a5ecb3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="32aa1b2a2f68f455403d10d41d8ded37c9812f11">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_60073720ca25fc64d4eb9866e4b0610fd691cc60.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/c80d35b6786978053830146282a57cc65495b21e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aa6a6e385297077a344e0bb95ab6c22f22119261">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_faef73e7eb49f8e1ed5ffa4f1d31781c214f32be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/695ca1c9e78781727fa8cc52edcb3b89530cfcf9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="80ecaefc1035fde747999e4c20e18d207363efa2">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_4797bb68ed271caa77a96a3c449a69ebdc3b1bb9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/7c7dabc05ae4b96baadc467d670e0632142e3214/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="143e5647b772c08c9f0d807b24bbc0b05ff6c7d2">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_bc0a71cebb104d9357e8006892253e796f2b2885.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/a57b983fb05f90068240e98b537047127edf4a61/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="acc7a846f0bc56ecccda535fc919fd338b2b3e2c">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_d992cb5c43b8ed4ffe77036b827c41e50326cb28.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/356fb9eaed76dabe1dbb8d09ab707870c995c075/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6d0d5e86f5b7203834df01ed78ebfdd5cbf74d48">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_bf5dbe09d3c2d606265c75d8f991ae13ac880c93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/dc453b605c9f094f438d0d0ae509444a4a0bc39e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_696aff416f8aa8505b78959d067e62a2aea79e91.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/89121fb4c45bf4453b2d8312a1bebb31d9158c18/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd1d0d84da2cff18f741c63a9c3af7d9aa89fdd6">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_a06c18929117460c2089e737c501f760a5968ac4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/69e0cbf36880203e64a954220a7f0a0e8b18994c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="610ae6a6872d9718fc05e2c726758206bd367595">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_4def995a0fe85d403d9818b86808c1e12e5c6d13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/0b1f731f2d1bd4414b01aa59214d5bd1912b5b2b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2ed7ba48801a0a361727833ade3b6cf096968cc0">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_af0fd84d7e0c70b8c380c2b08f36a16d38948b14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/dd6f41bfb423719ee7a79f30c0b19525037a70fd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a75030f7a3f5f96a15acdab44829bed93154d09f">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_ba07ded76d2bed03d35f9c216906bd8ec865df12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/3f1f5f138cdaedcecc746874bf3e5771445ec180/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8748e15968514ff1708deb3bb7f0c17623e50bbb">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_c6877a6111683cbf90a490ed95a9e584cc86d8ec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/8b4fe477554b6bd78a0514f1b30cf8edd801c6d0/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4eeba61bbc47e49a5fbdfd9aa21af5d10bf4df7c">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_1b9f31d71e98fd9c6421a764269ee669d8f554cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/90c0482c7c8f80eaf80e7f76873786d79f1e010c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98ac18f891a8279ae57c4771cbf4a2a65f95b04c">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_5af125c1d7414e960c5d28629f54b7cedd39a7e1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/24019f039412bef28671ad198037e017880a3d7a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="54933c89f90a872aa342004e82b23e776fe12736">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_65066d334b90675e9f04b6a5ebee6b5497224dd9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/d50c146bb67331eecf309e18250b7fae1a103b33/output/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0_6807184f55afc61906427cbb157f4e541225234b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/d00e4e4ed99768a207d86cc80ea82e9ac01c5894/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d72eb1ceff1b0bac4916088eb44bb93f86b1265c">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_d34b0ea71f4899888ab719c6dd2ba96b0bbfa5e6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/8b74c4d2ca97bccca5bf84cad0a5c5628ac56829/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="657abe17c5ba58f5d24803ba303c6005b180897a">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_eb4b9bf4540c1086ba2eaf4657347ea47d7ecf12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/a4b56b11fe338b880b0c791c530677bfa731d9db/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dde643ce80b967f869e9b111255815ba4d391653">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_4d3fe8692450f2218da0dc41db5e13e71c7fe2e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/4c3f25919382d359b487ce5efae9425321526275/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_23132f44bfee62856d5ca7f4fd6873c8cd8183c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/60022dfec42a9e143c29de81a64bb8fd060f576f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a9c8affe1f564ec0d063be68469d26e972455217">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_e7546e7e807272e3a6042398b50c0cd13f106d80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/f59b472a3a733694d66a4bebb4b65aed1300486b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c01990d0a9bbc67f4c2b9610c1170046c2e37b3e">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_aaa1068354b17476cd7f5f45020241b9c93815a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/8a4c6d1d03d143866afe70d83946d8dd0f017cca/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6c8a4af7cf76d958c76ed7682f39e4b386b69305">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_b52ffe6aef21a153ca2816e6c8c8ce9ca95708e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/b88390cd1578d38b87eaee1ebcc6688532d776b5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c76804333008c855433cad5cfd1256e86045e97b">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_6431ff2759f4fcd195a20fef690add31e36b41e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/1610e019e1abac12cd76e0c2f8227ec5a7098853/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="29d9916bd9ad8406a53edbafbbce5e18943aa882">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_dbacb777f73f22cd550df60dd49984543d31dec4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/7072b11f65bcdb93d2953c265f9a61bbb00ddcea/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="02e70fe04e0767ccfa16745b3398816d1171f0ad">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_cb9ee6976b6ff13861db19e077750f0b4f941004.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/2f86e67d757965c76c4a25549bd354a78a3b17d3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="90236fba9ac4dfb1f4196e231aab964522143ef6">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_2a9e0df6947311894e1d3ebac090116ee2e396e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/deb57b554a7e76cde949edaea1d92f31b9efc6d1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1b95f2bf44857a158b097e9f80d5d18d69f32584">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_658f4df582f7ae3df1d73377f2b5f14da3bfae11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/6f09a7d75c23414cbe7f1924981bc3b21fb86fcb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="183e4fb7cf95f4fa54963cfcdaf0f4d7e2397bad">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_1b60df120a3a6cb40e32b01dc81df052cddd699d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/b28abb77dab6fdead3720c63619e77969c65fdd6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fe159787dd4c4bc9ed6a9d4f7430e9af1f3516c8">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_38ab3d64903c84763b97955af7312a7ae4fbc415.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/bd94bdebe7e3b4474fdad554d795824214a53922/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_43e03de61bfd06c3e9cbedb9b4e2b3056db0225e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/e12eb7fd473815dc41e42e690c02a14e4efd573e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6b8d1a53648f7ecfe9e7bf0baf9ca657c5a1ff91">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_dd31d29cd4bf73469ebf8aec36f96326b415b431.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/ff9557d149b70e3a421dd9771395cbc981727095/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e0f082141b7aa90aab5d3a47ab09b0edc958f6b">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_cfa51c26b2083230fc6ca171eeff343446c65575.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/15a086aa2f91adb0480b6643e5083ea51672ff40/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6b8ad09b76c4ffaedf443ca54bc2418760870689">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_1dd4f38004f7f134f503961cd2542dad2b7a3761.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/a7adf9949a8f032ec0f5eb87f7d658e48a6921f6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fdf15d202000492aefe43092b21af5332df0178">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_f6b9b23c536be33ffe2c7f7c274f67f05e403853.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/8354807bb78e057fb2ab230a9fe65d1a5d674da8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="597d0d34e15e713c486e8f4ccf739f0c7d05bde4">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_d8a2bac04232fbd047b11a61675619085e645e40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/76798ae5650c533ff8d8f3460b719e304a16e741/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="29e4e634375ab2ed25f8db5387b564c78980422a">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_5d7a66b43498f005072a7d1964b36681aaa3e916.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/57cf663692a7b21e4df99403e01042c754a2411f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0e23941db151e67886844de6586e180bb2b860ad">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_d67cf4426ed51f2efca333f22ea6bc7037710425.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/cf34e5b0ad26e73b73cdb1ea8a0800a791426ee3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="701c58abf53f488bc5bb0162f1305a38a32fb5f1">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_0543c099f5ccc10536d0e7589f22bc768e5da83c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/eclipse/.android/build-cache/554847a292ebc78e63222299b903dc3b8ffd0a74/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b50fe5288bba9d1635ba619bd3c308319205543e">
+        <dex dex="/home/eclipse/Desktop/Mayur_PPP/Ealpha/app/build/intermediates/pre-dexed/debug/classes_c657165c89bb49b3cad14bda85b9376f06e06539.jar" />
+    </item>
+
+</items>
