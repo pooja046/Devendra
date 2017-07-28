@@ -1,0 +1,23 @@
+ProductDetailActivityPP.java mene send ki hai isis folder me but usme itna hi change krna hai to tum sabhi detail par yeh pease of code change kar lena is detail wali me check krke okay boss.
+
+
+
+
+	  // krishna
+                try {
+                    MainActivity.cartsDTO.setUnit_price(""
+                            + (int) Float.parseFloat(productDataObject
+                            .getString("price")));
+                    MainActivity.cartsDTO.setTotal_price(""
+                            + (int) Float.parseFloat(productDataObject
+                            .getString("price")));
+                } catch (Exception e) {
+
+                }
+                // krishna
+
+
+
+
+
+
