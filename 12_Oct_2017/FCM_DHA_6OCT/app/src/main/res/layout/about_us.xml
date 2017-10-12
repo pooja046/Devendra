@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+        <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A67B48"
+        android:gravity="center"
+        android:src="@mipmap/dharamraz" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#666666"
+        android:textSize="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:text="Welcome to Dharamraz.com, the new affiliate network launched in 2017 at Amsterdam by the India’s one of the best IT service provider, Alpha Infolab Pvt Ltd. Well, it is the leading online games site, where you can play hundreds of games with just one simple click.
+
+Nowadays, finding the best online casinos available in the market has become a difficult task. But, Dharamraz is your right source and the right place to play Casino, Roulette, Free Spins, Poker, Bingo, Slots, and Lottery. As a one of the leading platform Dharamraz.com is more focused on gambling sites that are 100% virus free with safety and security. In order to provide you best service, we do not accept money on all of our games. You can enjoy your love for games at our portal.
+
+Join the Fun:
+
+Get all the best offers, lottery tickets, bonus, high scores, coins and much more only at Dharamraz. We had a great opportunity and fun for all of our players like Free trails, Awards, Coupons etc. Either you can play single or double you will surely get all benefits on this affiliated gaming junction!
+
+You can play selected version of Casino games with the full security from our side. Dharamraz is not a gaming company and we neither collect nor advice our users to deposit any kind of money. But, we never share our customer account details with anyone. As you know, we are working as an affiliate network, we also provide traffic to best advertisers of our portal.
+
+
+
+This gaming network is restricted to India because the gambling sites are prohibited under the law, it is only based on other countries like United States of America  United Kingdom." />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:textStyle="bold"
+    android:layout_marginLeft="5dp"
+
+    android:text="Disclaimer -
+* We are an affiliate network company.
+* We are not a gaming company.
+* We are providing traffic to our advertizers.
+* We are charging for traffic generation through our website to the advertizers on CPC/CPL/CPA/CPI/CPM basis.
+* We neither collect nor advice to deposit any sort of money in cash or kind to the visitor of our website.
+* Residents of those countries where gaming is illegal, we suggest and restrict them not to use this website.
+* Indian law prohibits the play of gambling in any sort. Hence, we do not allow to play games on this website in India.
+"
+    />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
