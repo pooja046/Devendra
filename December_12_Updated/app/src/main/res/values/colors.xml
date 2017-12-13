@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="darkGoldenRod">#67492F</color>
+    <color name="button_clor">#A67B48</color>
+
+    <!-- categories color-->
+
+    <color name="button_casino">#00ff00</color>
+    <color name="button_free_spins">#0000ff</color>
+    <color name="button_lottery">#ffff00</color>
+    <color name="button_bingo">#ff0000</color>
+    <color name="button_poker">#008000</color>
+    <color name="button_slots">#A67B48</color>
+    <color name="button_roulette">#EE82EE</color>
+
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/ic_home"
+            android:title="Home" />
+
+    </group>
+
+    <item
+        android:id="@+id/cat"
+        android:title="Category">
+        <menu>
+
+            <!--<item
+                android:id="@+id/nav_bingo"
+                android:icon="@mipmap/"
+                android:title="Bingo" />
+            <item
+                android:id="@+id/nav_casino"
+                android:icon="@color/button_casino"
+                android:title="Casino" />
+
+            <item
+                android:id="@+id/nav_free_spins"
+                android:icon="@color/button_free_spins"
+                android:title="Free Spins" />
+
+
+            <item
+                android:id="@+id/nav_lottery"
+                android:icon="@color/button_clor"
+                android:title="Lottery" />
+
+            <item
+                android:id="@+id/nav_poker"
+                android:icon="@color/button_poker"
+                android:title="Poker" />
+
+            <item
+                android:id="@+id/nav_roulette"
+                android:icon="@color/button_roulett"
+                android:title="Rourette" />
+
+            <item
+                android:id="@+id/nav_slots"
+                android:icon="@color/button_slots"
+                android:title="Slots" />
+-->
+        </menu>
+    </item>
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:icon="@mipmap/aboutus"
+            android:title="About Us" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@mipmap/aboutus"
+            android:title="Share" />
+
+    </group>
+
+
+    <!-- <item
+         android:id="@+id/nav_logout"
+         android:icon="@mipmap/logout"
+         android:title="logout"
+         android:visible="false" />-->
+
+</menu>

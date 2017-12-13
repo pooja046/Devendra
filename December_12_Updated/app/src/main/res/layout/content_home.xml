@@ -1,0 +1,196 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:fillViewport="true"
+        android:id="@+id/scroll_view_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#6E4F32"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <GridView
+                        android:id="@+id/category_grid_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:numColumns="3"
+                        android:stretchMode="columnWidth"></GridView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#A9A9A9"
+                    android:orientation="vertical">
+
+                    <android.support.v4.view.ViewPager
+                        android:id="@+id/view_pager_main"
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:background="@mipmap/dharamraz"
+                        android:visibility="visible" />
+
+                    <LinearLayout
+                        android:id="@+id/see_all"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="#6E4F32">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="#6E4F32"
+                                android:gravity="center_vertical"
+                                android:text="Editor Picks"
+                                android:textColor="#FFFFFF"
+                                android:textSize="13dp" />
+                        </LinearLayout>
+
+                        <HorizontalScrollView
+                            android:id="@+id/horizontal_sc_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@mipmap/dharamraz"
+                            android:scrollbars="none">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <LinearLayout
+                                    android:id="@+id/liner_pager"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <GridView
+                                        android:id="@+id/grid_view_horizontal"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center"
+                                        android:scrollbarAlwaysDrawHorizontalTrack="true"
+                                        android:scrollbarAlwaysDrawVerticalTrack="true"
+                                        android:scrollbars="horizontal"
+                                        android:stretchMode="none"
+                                        android:verticalSpacing="1dp"
+                                        android:horizontalSpacing="5dp"
+                                        >
+
+                                    </GridView>
+
+                                </LinearLayout>
+                            </LinearLayout>
+                        </HorizontalScrollView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ListView
+                            android:id="@+id/home_bottom_grid_view"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"></ListView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_weight="2"
+                            android:id="@+id/facebook"
+                            android:layout_width="10dp"
+                            android:layout_height="40dp"
+                            android:src="@mipmap/facebook" />
+
+                        <ImageView
+                            android:layout_weight="0.5"
+                            android:id="@+id/google_plus"
+                            android:layout_width="10dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="30dp"
+                            android:src="@mipmap/google_plus" />
+
+                        <ImageView
+                            android:layout_weight="2"
+                            android:id="@+id/twitter"
+                            android:layout_width="10dp"
+                            android:layout_height="40dp"
+                            android:layout_marginLeft="30dp"
+                            android:src="@mipmap/twitter" />
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:background="#6E4F32"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:text="Disclaimer"
+                            android:gravity="center"
+                            android:textColor="#ffffff"
+                            android:textSize="20dp" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:background="#ffffff"
+                            />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:textSize="17dp"
+                         android:layout_margin="5dp"
+                            android:textColor="#ffffff"
+                            android:gravity="center|left"
+                            android:fitsSystemWindows="true"
+                            android:text="We are an affiliate network company.
+We are not a gaming company.
+We are providing traffic to our advertizers.
+We are charging for traffic generation through our website to the advertizers on CPC/CPL/CPA/CPI/CPM basis.
+We neither collect nor advice to deposit any sort of money in cash or kind to the visitor of our website.
+Residents of those countries where gaming is illegal, we suggest and restrict them not to use this website.
+Indian law prohibits the play of gambling in any sort. Hence, we do not allow to play games on this website in India." />
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
